@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Meta Datos Básicos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parrilla La Brasa - Auténtica experiencia en Mendoza</title>
+    <meta
+      name="description"
+      content="Disfruta de la mejor parrilla en Mendoza. Reserva ahora y vive una experiencia única en Parrilla La Brasa. ¡Visítanos!"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/jpg" href="assets/img/favicon.ico" />
+    <link rel="canonical" href="https://www.tu-dominio.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="Parrilla La Brasa - Auténtica experiencia en Mendoza"
+    />
+    <meta
+      property="og:description"
+      content="Disfruta de la mejor parrilla en Mendoza. Reserva ahora y vive una experiencia única en Parrilla La Brasa."
+    />
+    <meta
+      property="og:image"
+      content="https://www.tu-dominio.com/assets/img/logo.png"
+    />
+    <meta property="og:url" content="https://www.tu-dominio.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Parrilla La Brasa - Auténtica experiencia en Mendoza"
+    />
+    <meta
+      name="twitter:description"
+      content="Disfruta de la mejor parrilla en Mendoza. Reserva ahora y vive una experiencia única en Parrilla La Brasa."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.tu-dominio.com/assets/img/logo.png"
+    />
+
+    <!-- Fuentes y Estilos -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Datos Estructurados: Schema para Negocio Local -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Parrilla La Brasa",
+        "image": "https://www.tu-dominio.com/assets/img/logo.png",
+        "telephone": "(5411) 4831-9564",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "San Martín 1523 (esquina Belgrano)",
+          "addressLocality": "Ciudad de Mendoza",
+          "addressRegion": "Mendoza",
+          "addressCountry": "Argentina"
+        },
+        "openingHours": ["Mo-Su 11:30-16:00", "Mo-Su 19:00-01:00"],
+        "url": "https://www.tu-dominio.com/"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Header: incluye logo y menú de navegación -->
+    <header>
+      <!-- Botón de menú hamburguesa -->
+      <button class="menu-btn" aria-label="Abrir menú de navegación">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <!-- Menú de navegación principal -->
+      <nav class="menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="#" data-target="inicio">INICIO</a></li>
+          <div class="menu-separator"></div>
+          <li><a href="#" data-target="presentacion">RESERVA</a></li>
+          <div class="menu-separator"></div>
+          <li>
+            <a href="assets/menu.pdf" target="_blank" rel="noopener">MENÚ</a>
+          </li>
+          <div class="menu-separator"></div>
+          <li><a href="#" data-target="horarios-info">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main: Contenido principal del sitio -->
+    <main>
+      <!-- Sección Hero -->
+      <section id="inicio" class="hero">
+        <img
+          src="assets/img/logo.png"
+          alt="Logo de Parrilla La Brasa"
+          class="logo"
+          loading="lazy"
+        />
+      </section>
+
+      <!-- Sección de Presentación / Reserva -->
+      <section id="presentacion" class="presentacion">
+        <h1>Bienvenidos a Parrilla La Brasa</h1>
+        <p>
+          Vive una auténtica experiencia gastronómica en Mendoza. ¡Reserva ahora
+          y disfruta de nuestros sabores!
+        </p>
+        <a href="https://api.whatsapp.com/send/?phone=549225371562" class="btn"
+          >RESERVA AHORA</a
+        >
+      </section>
+
+      <!-- Sección de Horarios e Información de Contacto -->
+      <section id="horarios-info" class="horarios-info">
+        <div class="horarios">
+          <h2>ABIERTO TODOS LOS DÍAS</h2>
+          <p>11:30 - 16:00 hs. | 19:00 - 1:00 hs.</p>
+        </div>
+        <div class="info">
+          <article class="info-box">
+            <i class="fa-solid fa-location-dot icon" aria-hidden="true"></i>
+            <h3>DIRECCIÓN</h3>
+            <p>San Martín 1523 (esquina Belgrano)</p>
+            <p>Ciudad de Mendoza, Mendoza</p>
+            <p>Argentina</p>
+          </article>
+          <div class="separator"></div>
+          <article class="info-box">
+            <i class="fa-brands fa-whatsapp icon" aria-hidden="true"></i>
+            <h3>WHATSAPP</h3>
+            <p>(5411) 4831-9564</p>
+            <p>(5411) 4832-6058</p>
+            <p>(5411) 5311-5668</p>
+          </article>
+          <div class="separator"></div>
+          <article class="info-box">
+            <i class="fa-solid fa-envelope icon" aria-hidden="true"></i>
+            <h3>EMAIL</h3>
+            <p>info@parrillalabrasa.com.ar</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer: Información de derechos y navegación secundaria -->
+    <footer>
+      <div class="content-footer">
+        <p>© 2024 PARRILLA LA BRASA, MENDOZA, ARGENTINA.</p>
+        <p>
+          Crafted by
+          <a
+            href="https://elthiagosm.github.io/portafolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Soca Studio</a
+          >
+        </p>
+        <a href="#inicio">INICIO</a>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
