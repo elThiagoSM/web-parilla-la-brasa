@@ -15,7 +15,7 @@ body {
 /* HERO - Sección principal con imagen de fondo */
 .hero {
   height: 100vh;
-  background: url("assets/img/fondo.webp") no-repeat center center/cover;
+  background: url("assets/imgs/fondo.webp") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
